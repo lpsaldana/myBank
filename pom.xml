@@ -19,9 +19,9 @@
 
 
   <modules>
-    <module>
-      MyBankGateway
-    </module>
+    <module>MyBankGateway</module>
+    <module>MyBankEureka</module>
+    <module>MyBankConfig</module>
   </modules>
 
   <properties>
