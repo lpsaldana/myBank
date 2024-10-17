@@ -22,7 +22,8 @@
     <module>MyBankGateway</module>
     <module>MyBankEureka</module>
     <module>MyBankConfig</module>
-    <module>MyBankUser</module>
+    <module>MyBankCustomer</module>
+    <module>MyBankCustomerPortfolio</module>
   </modules>
 
   <properties>
