@@ -15,5 +15,5 @@ public class AccountDTO {
     private String accountNumber;
     private String accountType;
     private BigDecimal balance;
-    private Long personId;
+    private Long customerId;
 }

@@ -24,7 +24,7 @@ public class AccountServiceImpl implements AccountService{
     }
 
     @Override
-    public List<Account> getPersonAccounts(Long personId) {
-        return accountRepository.findByPersonId(personId);
+    public List<Account> getCustomerAccounts(Long customerId) {
+        return accountRepository.findByCustomerId(customerId);
     }
 }

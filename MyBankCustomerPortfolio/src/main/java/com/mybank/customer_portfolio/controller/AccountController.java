@@ -22,9 +22,9 @@ public class AccountController {
         return ResponseEntity.ok(accountService.getAccountById(id));
     }
 
-    @GetMapping("/person-acc/{id}")
-    public ResponseEntity<?> getPersonAccounts(@PathVariable Long id){
-        return ResponseEntity.ok(accountService.getPersonAccounts(id));
+    @GetMapping("/customer-acc/{id}")
+    public ResponseEntity<?> getCustomerAccounts(@PathVariable Long id){
+        return ResponseEntity.ok(accountService.getCustomerAccounts(id));
     }
 
 

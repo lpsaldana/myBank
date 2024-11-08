@@ -18,8 +18,11 @@ public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "account_number")
     private String accountNumber;
+    @Column(name = "account_type")
     private String accountType;
     private BigDecimal balance;
-    private Long personId;
+    @Column(name = "customer_id")
+    private Long customerId;
 }

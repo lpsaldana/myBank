@@ -9,6 +9,6 @@ import java.util.List;
 
 @FeignClient(name = "msvc-mb-customer-portfolio", url = "localhost:8082/api/account")
 public interface PortfolioClient {
-    @GetMapping("/person-acc/{id}")
-    List<AccountDTO> findAllPersonAccounts(@PathVariable Long id);
+    @GetMapping("/customer-acc/{id}")
+    List<AccountDTO> findAllCustomerAccounts(@PathVariable Long id);
 }

@@ -12,6 +12,6 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class PersonAccountsResponse {
+public class CustomerAccountsResponse {
     private List<AccountDTO> accountDTOList;
 }
